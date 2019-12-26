@@ -1,0 +1,108 @@
+[1;31m
+Start test 1[0m
+>export
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+File name:
+>capitals.txt
+0 cards have been saved. 
+>export
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+
+File name:
+>capitalsNew.txt
+0 cards have been saved. 
+>exit
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+[1;31m
+Start test 2[0m
+>add
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+	The card:
+>France
+The definition of the card:
+>Paris
+@The pair (France:Paris) has been added. ("France":"(Paris, 0)") 
+>add
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+	The card:
+>Russia
+The definition of the card:
+>Moscow
+ZThe pair (Russia:Moscow) has been added. ("France":"(Paris, 0)") ("Russia":"(Moscow, 0)") 
+>ask
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+How many times to ask?
+>3
+ Print the definition of "Russia"
+>France
+*Wrong answer. The correct one is "Moscow".
+ Print the definition of "Russia"
+>??
+*Wrong answer. The correct one is "Moscow".
+ Print the definition of "France"
+>
+)Wrong answer. The correct one is "Paris".
+>exit
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+J2 cards have been saved. ("France":"(Paris, 1)") ("Russia":"(Moscow, 2)") 
+[1;31m
+Start test 3[0m
+K2 cards have been loaded. ("France":"(Paris, 1)") ("Russia":"(Moscow, 2)") 
+>add
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+	The card:
+>Japan
+The definition of the card:
+>Tokyo
+oThe pair (Japan:Tokyo) has been added. ("France":"(Paris, 1)") ("Russia":"(Moscow, 2)") ("Japan":"(Tokyo, 0)") 
+>ask
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+How many times to ask?
+>3
+ Print the definition of "Russia"
+>Moscow
+Correct answer.
+ Print the definition of "Russia"
+>Paris
+ZWrong answer. The correct one is "Moscow", you've just written the definition of "France".
+Print the definition of "Japan"
+>Tokyo
+Correct answer.
+>exit
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+a3 cards have been saved. ("France":"(Paris, 1)") ("Russia":"(Moscow, 3)") ("Japan":"(Tokyo, 0)") 
+[1;31m
+Start test 4[0m
+b3 cards have been loaded. ("France":"(Paris, 1)") ("Russia":"(Moscow, 3)") ("Japan":"(Tokyo, 0)") 
+>ask
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+How many times to ask?
+>3
+ Print the definition of "France"
+>Moscow
+YWrong answer. The correct one is "Paris", you've just written the definition of "Russia".
+Print the definition of "Japan"
+>Paris
+YWrong answer. The correct one is "Tokyo", you've just written the definition of "France".
+ Print the definition of "France"
+>Tokyo
+XWrong answer. The correct one is "Paris", you've just written the definition of "Japan".
+>remove
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+	The card:
+>Japan
+LThe card has been removed. ("France":"(Paris, 3)") ("Russia":"(Moscow, 3)") 
+>exit
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
+J2 cards have been saved. ("France":"(Paris, 3)") ("Russia":"(Moscow, 3)") 
+[1;31m
+Start test 5[0m
+K2 cards have been loaded. ("France":"(Paris, 3)") ("Russia":"(Moscow, 3)") 
+>exit
+ZInput the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+Bye bye!
